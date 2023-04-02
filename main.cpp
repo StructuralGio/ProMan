@@ -1,8 +1,8 @@
 // c++ hello world program
 
-#include <iostream>
-#include "Project.h"
-#include "Team.h"
+//#include <iostream>
+#include "pro/Project.h"
+#include "tea/Team.h"
 using namespace std;
 
 int main() {
@@ -18,17 +18,14 @@ int main() {
         cout << "Enter your choice: ";
         cin >> inputvalue;
         system("CLS");
-        if (inputvalue == 1) {
-            TeamTree();
-        }
-        else if (inputvalue == 2) {
-            
-            ProjectTree();
-        }
-        else if (inputvalue == 3) {
 
+        switch (inputvalue) {
+        case 1:
+            TeamTree();
+        case 2:
+            ProjectTree();
+        case 3:
             return 0;
-        }
-        
+        }        
     }
 }

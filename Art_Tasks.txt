@@ -1,0 +1,12 @@
+230214
+
+1) Separar ficheros carpetas (ok)
+2) Funciones vacias (esqueleto) (ok)
+3) Bibliotecas iostream no, namespace no (no lo sabía) (ok)
+4) declarar sin inicializar (ok) se declara cuando se inicializa diferente de VB para no volver a inicializarla en cada iteración (ok)
+5) swithc
+6) Parentesis automatica, a veces incluso en la misma linea si es una cosa corta
+7) Hacer carpetas ok, el problema ya será hacer una de database
+8) objetos
+9) poco codigo
+10) Exacto, empezar el camino e ir tirando, rozamiento estatico y dinamico

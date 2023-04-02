@@ -128,8 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Project.cpp" />
-    <ClCompile Include="Team.cpp" />
+    <ClCompile Include="pro\Project.cpp" />
+    <ClCompile Include="tea\Team.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
@@ -137,8 +137,11 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Project.h" />
-    <ClInclude Include="Team.h" />
+    <ClInclude Include="pro\Project.h" />
+    <ClInclude Include="tea\Team.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Art_Tasks.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

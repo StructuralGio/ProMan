@@ -1,7 +1,6 @@
 #include "Project.h"
 
-void  ProjectTree() {
-	int inputvalue;
+void  ProjectTree() {	
 
 		while (1) {
 			cout << "Project management" << endl << endl;
@@ -10,17 +9,28 @@ void  ProjectTree() {
 			cout << "3 Remove Project" << endl;
 			cout << "4 Show Project list" << endl;
 			cout << "5 Go back" << endl;
+			int inputvalue;
 			cin >> inputvalue;
-			
-			if (inputvalue == 1) {
+			//Initialize project object
+			Proj Myproject;
+			switch (inputvalue) {
+			case 1:
 				cout << "You selected 1" << endl;
+				Myproject.AddP();
 				system("PAUSE");
-			}
-			else if (inputvalue == 2) {
+			case 2:
 				cout << "You selected 2" << endl;
+				Myproject.ModP();
 				system("PAUSE");
-			}
-			else if (inputvalue == 5) {
+			case 3:
+				cout << "You selected 3" << endl;
+				Myproject.RemP();
+				system("PAUSE");
+			case 4:
+				cout << "You selected 3" << endl;
+				Myproject.ShoP();
+				system("PAUSE");
+			case 5:
 				cout << "You selected 5" << endl;
 				break;
 			}
@@ -30,7 +40,11 @@ void  ProjectTree() {
 
 }
 
+
+class Proj {
+public:
 void AddP() {}
 void ModP() {}
 void RemP() {}
 void ShoP() {}
+};
